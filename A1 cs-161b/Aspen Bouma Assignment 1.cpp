@@ -1,4 +1,7 @@
-﻿// ------------- FILE HEADER -------------
+﻿//git hub 
+
+
+// ------------- FILE HEADER -------------
 // Author ✅: AspenBouma
 // Assignment ✅: Assignment 1: Food Truck (CS 161A Review)
 // Date ✅: 10/2/2025 
@@ -75,7 +78,7 @@ int main() {
 	double totel = 0;
 
 	cout << fixed << setprecision(2);
-
+	cout << "Hiiiiii " << endl;
 	welcome();
 	displayMenu();
 	readOption(option);
@@ -138,7 +141,7 @@ void displayMenu() {
 void readOption(int& option) {
 
 	// option is assigned a number thats not 1 or 2. so it's 3 :>    
-	option = 3;
+	option = 5;
 
 	while (!(option == 2 || option == 1)) {
 
